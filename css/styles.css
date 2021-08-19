@@ -1,0 +1,169 @@
+.container-fluid {
+  padding: 3%;
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+  padding-bottom: 7%;
+
+  position: relative !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat" !important;
+}
+p {
+  color: #8f8f8f;
+}
+h2 {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #ff4c68;
+}
+.myfont-1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.header-logo {
+  height: 10px;
+}
+.container {
+  font-size: 150%;
+  padding-bottom: 3rem;
+  position: relative !important;
+}
+.navbar-brand {
+  font-size: 2rem !important;
+  font-family: "Ubuntu" !important;
+}
+.nav-item {
+  margin: auto 20px !important;
+}
+
+.image-iphone {
+  position: absolute;
+  width: 50%;
+  right: 30%;
+  transform: rotate(25deg);
+}
+.photo-container {
+  position: relative;
+}
+.feature-box {
+  padding: 5% !important;
+  text-align: center;
+}
+
+.features-container {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative !important;
+}
+
+.buttonDownload {
+  margin: 10px !important;
+}
+.features-icons {
+  color: #ef8172;
+}
+.feature-box {
+  padding: 15%;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+  margin-top: 50px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-image {
+  padding: 7% 3%;
+  width: 20%;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 0px !important;
+}
+.carousel-item {
+  padding: 7% 15%;
+  color: #fff;
+}
+.card {
+  padding: 0% !important;
+}
+.card-deck {
+  padding: 5% 0%;
+}
+.card-container {
+  padding: 10px;
+}
+
+#pricing {
+  padding: 10%;
+  text-align: center;
+}
+.fa-check-circle:hover {
+  color: red;
+}
+.fa-heart:hover {
+  color: red;
+}
+.fa-bullseye:hover {
+  color: red;
+}
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.cta-text {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.btn-cta {
+  margin: 1.5rem;
+}
+#footer {
+  text-align: center;
+}
+.footer-row {
+  padding: 3rem;
+  padding-bottom: 1.5rem;
+}
+.footer-col {
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  .image-container {
+    position: static;
+  }
+  .image-iphone {
+    position: static;
+    transform: rotate(0deg);
+  }
+  .myfont-1 {
+    font-family: "Montserrat-Black";
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .container-fluid {
+    text-align: center;
+  }
+}
